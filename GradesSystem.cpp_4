@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std ;
+
+int main (){
+  int grade ;
+  
+  cout<<"enter your grade from 0 to 100"<<endl ;
+  cin>>grade ;
+  
+  
+  if (grade>100||grade<0){
+      cout<<"enter grade in the range 0-100" ;
+      return 1 ;
+  }
+     
+  if(grade >= 90){
+    cout<<"your grade is A" ;
+  }
+  
+  else if (grade >= 80) {
+      cout<<"your grade is B" ;
+  }
+  
+   else if (grade >= 70) {
+      cout<<"your grade is C" ;
+  }
+  
+    else if (grade >= 60) {
+      cout<<"your grade is D" ;
+  }
+  
+    else {
+      cout<<"your grade is F" ;
+  }
+    
+return 0 ;
+}
