@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int start, end;
+    int even = 0;
+    int odd = 0;
+
+    cout << "enter your start number :";
+    cin >> start;
+    cout << "enter your end number :";
+    cin >> end;
+
+    for (int i = start; i <= end; i++) {
+        if (i % 2 == 0) {
+            even++;
+        } else {
+            odd++;
+        }
+    }
+
+    cout << "even numbers are : " << even << endl;
+    cout << "odd numbers is : " << odd << endl;
+    
+    return 0;
+} 
